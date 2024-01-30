@@ -8,7 +8,7 @@
  */
 int tree_full(const binary_tree_t *tree)
 {
-	int right_full = 0, left_full = 0;
+	int right_full = 0, left_full = #include <stdlib.h>
 
 	if (!tree)
 		return (0);
@@ -64,9 +64,15 @@ int compute_balance_factor(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 	if (tree->left)
+	{
 		left = compute_binary_height(tree->left);
+		left++;
+	}
 	if (tree->right)
+	{
 		right = compute_binary_height(tree->right);
+		right++;
+	}
 	return (left - right);
 }
 /**
