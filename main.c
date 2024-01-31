@@ -24,7 +24,7 @@ int main(void)
     root->left->right = binary_tree_node(root->left, 56);
     binary_tree_print(root);
     printf("Rotate-right %d\n", root->n);
-    root = binary_tree_rotate_left(root);
+    root = binary_tree_rotate_right(root);
     binary_tree_print(root);
     return (0);
 }
