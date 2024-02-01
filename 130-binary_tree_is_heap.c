@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 #include "102-binary_tree_is_complete.c"
 /**
- * check_max - Function goes through a binary tree cheking ropt as max value
+ * check_maxi - Function goes through a binary tree cheking ropt as max value
  * @tree: Fetches the pointer to the root
  * Return: 1 if all nodes are max, 0 in other cases
  **/
